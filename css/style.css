@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------------------------Colours*/
-
-.bgr:sp, .bgc, .bgi:n {
-    background-color: #728ea5;
+.jumbotron {
+  background-color: #728ea5;
 }
 .ui-menu-color-home {
     background-color: #f89136;
@@ -49,6 +48,9 @@ h4 {
 
 .inline-block{
  display: inline-block;
+ padding-block-end: 20px;
+ margin-top: 0.5px;
+ margin-bottom: 1.5px;
 }
 .row-table{
  display: table;
