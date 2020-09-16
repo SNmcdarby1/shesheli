@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------------------------Colours*/
-.jumbotron {
-  background-color: #728ea5;
-}
 .ui-menu-color-home {
-    background-color: #f89136;
+    background-color: #6ee5ee;
 }
 .ui-menu-color-duka{
-    background-color: #9b59b6;
+    background-color: #f3e849;
  }
 .ui-menu-color-delivery{
-    background-color: #3498db;
+    background-color: #9ec78e;
 }
 .ui-menu-color-lipanampesa {
-    background-color: #525252;
+    background-color: #68e749;
+}
+.ui-menu-color-envelope{
+  background-color: #eda5f7;
 }
 .bg-color-three-reasons{
     background: #fff;
@@ -25,11 +25,15 @@
 .bg-color-contact{
     background-color: #fff;
 }
+.bg-name-color-title{
+background-color: #fafafa;
+}
 .bg-color-work-history{
   background-color: #9b59b6;
 }
-
-
+.header{
+    color: #fff;
+}
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
 h2,
@@ -45,15 +49,15 @@ h4 {
     font-weight: 300;
     color: #fafafa
 }
-
 .inline-block{
  display: inline-block;
  padding-block-end: 20px;
- margin-top: 0.5px;
+ margin-top: 0.5PX;
  margin-bottom: 1.5px;
 }
+
 .row-table{
- display: table;
+ display: block;
 }
 .section-column{
     display: table-cell;
@@ -68,8 +72,13 @@ h4 {
     scroll-margin-bottom: 40px;
 }
 /*-------------------------------------------------------------Headings*/
+.jumbotron {
+     background-image: url(../images/grocery.jpeg);
+}
 header {
-    margin: 0;
+    margin: 20%;
+    padding: 100%;
+    text-align: center; 
 }
 
 .heading{
@@ -92,7 +101,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
-    color: #fff;
+    color: rgb(212, 226, 19);
 }
 
 .title{
@@ -112,11 +121,13 @@ header {
 
 #nav{
     margin: 0;
-}
+    scroll-paddingblock: 
 
+}
 #nav lI{
-    font-size: 14px;
+    font-size: 20px;
     padding: 0;
+    position: relative;
 }
 .menuitem {
     height: 120px;
@@ -127,13 +138,14 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: rgb(2, 1, 1);
     height: 120px;
+    font-weight: 300px;
 }
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
+    color: #4d2e2e;
     font-size: 26px;
 }
 .menuitem span{
@@ -142,21 +154,21 @@ header {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 /*-------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 250px;
 }
 
 /*-------------------------------------------------------------Footer*/
 footer {
     background-color: #525252;
-    color: #fafafa;
+    color: #58ebba;
     min-height: 120px;
     margin: 0;
 }
@@ -184,8 +196,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #0bf3cc;
+    background: #a8aaaa;
     transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
